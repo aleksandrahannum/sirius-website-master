@@ -1,0 +1,98 @@
+.header
+  position: relative
+  padding: 25px 0 324px
+
+.header::after
+  content: ''
+  position: absolute
+  top: 0
+  right: 0
+  width: 944px
+  height: 978px
+  background: url('../img/decoration/triangle1.svg') center no-repeat
+  background-size: contain
+  z-index: -1
+  
+.header-logo
+  margin-bottom: 117px
+
+.logo-img
+  width: 100px
+
+.header-row
+  position: relative
+  max-width: 1700px
+  margin: 0 auto
+  
+.header-content
+  max-width: 570px
+  
+  +media(l, 250px)
+    max-width: 470px
+
+  +media(l, -100px)
+    max-width: 440px
+  
+.header-title
+  margin-bottom: 25px
+  font-family: 'Geomanist-Book'
+  font-size: 46px
+  color: #26272C
+  letter-spacing: -1px
+  line-height: 46px
+
+.header-text
+  margin-bottom: 60px
+  font-size: 18px
+  color: #788A9D
+  letter-spacing: -0.39px
+  line-height: 36px
+
+.subscribe-form
+  display: flex
+
+.subscribe-form-input
+  +placeholder(16px, #869AAD, -0.5px)
+  width: 370px
+  height: 55px
+  padding-left: 25px
+  font-size: 18px
+  background: #FFFFFF
+  border: 1px solid #E8EBF2
+  border-radius: 4px
+
+.subscribe-form-btn
+  width: 170px
+  height: 55px
+  margin-left: 30px
+  background: #3740FA
+  font-weight: 500
+  font-size: 16px
+  color: #FFFFFF
+  letter-spacing: -0.5px
+  text-align: center
+  border-radius: 4px
+
+.subscribe-form-btn:hover
+  background: lighten(#3740FA, 3%)
+
+.header-video-wrapper
+  width: 735px
+  height: 443px
+  position: absolute
+  top: 0
+  right: 0
+  transform: translateX(35px)
+
+  +media(l, 100px)
+    width: 700px
+
+  +media(l)
+    width: 600px
+
+  +media(l, -100px)
+    width: 550px
+
+.header-video
+  max-width: 100%
+  box-shadow: 0 16px 80px 0 #DFE1ED

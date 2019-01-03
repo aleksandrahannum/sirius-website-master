@@ -1,0 +1,61 @@
+.value
+  position: relative
+  padding-bottom: 148px
+
+.value::after
+  content: ''
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 944px
+  height: 978px
+  background: url('../img/decoration/triangle2.svg') center no-repeat
+  background-size: contain
+  z-index: -1
+
+.value-list
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+.value-item
+  width: 48.7%
+  padding: 45px 35px 32px
+  margin-bottom: 30px
+  background: #fff
+  box-shadow: 0 16px 80px 0 #DFE1ED
+
+.value-item + .value-item
+  margin-left: 2.5%
+
+.value-item:nth-child(odd)
+  margin-left: 0
+
+.value-item-ico-wrapper
+  width: 70px
+  height: 69px
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-bottom: 20px
+  background: #3740FA
+  border-radius: 50%
+  line-height: 0
+  
+.value-item-ico
+  display: block
+  max-width: 100%
+
+.value-item-title
+  margin-bottom: 15px
+  font-family: 'Geomanist-Book'
+  font-size: 24px
+  color: #26272C
+  letter-spacing: -0.52px
+  line-height: 46px
+
+.value-item-text
+  font-size: 16px
+  color: #788A9D
+  letter-spacing: -0.35px
+  line-height: 36px
