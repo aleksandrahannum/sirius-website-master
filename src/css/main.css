@@ -602,3 +602,53 @@ body {
 
 .subtitle {
   margin: 10px 10px 10px 0; }
+
+.main-whitepaper {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0C0E57), to(#ccccff));
+  background-image: -webkit-linear-gradient(#0C0E57, #ccccff);
+  background-image: -o-linear-gradient(#0C0E57, #ccccff);
+  background-image: linear-gradient(#0C0E57, #ccccff); }
+
+.whitepaper-heading {
+  font-size: 30px;
+  font-family: 'Geomanist-Book';
+  font-weight: 300;
+  text-align: center;
+  line-height: 40px;
+  color: #0C0E57; }
+
+.whitepaper-btn {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #0C0E57;
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  margin-top: 50px;
+  color: #0C0E57; }
+
+.whitepaper-btn:hover {
+  background-color: #0C0E57;
+  color: #fff; }
