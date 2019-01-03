@@ -140,19 +140,26 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 50px; }
+  height: 80px;
+  text-align: center; }
 
 .cookie-bar-description {
-  width: 80%; }
+  width: 40%px;
+  margin-top: 20px; }
 
 .cookie-bar-link {
   font-weight: 700; }
 
 .cookie-buttonn {
   text-transform: uppercase;
-  width: 100px;
+  width: 150px;
+  height: 50px;
   background-color: white;
-  color: #0C0E57; }
+  color: #0C0E57;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  margin-right: 10px;
+  margin-top: 15px; }
 
 .header {
   position: relative;
