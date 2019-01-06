@@ -603,8 +603,32 @@ body {
 .subtitle {
   margin: 10px 10px 10px 0; }
 
-.main-whitepaper {
-  padding-top: 50px;
+.main-about-sirius {
+  padding-top: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+  background-color: #EDEDF6; }
+
+.about-sirius-heading {
+  font-size: 36px;
+  font-family: 'Geomanist-Book';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+  color: #26272C;
+  letter-spacing: -0.78px;
+  line-height: 46px; }
+
+.about-sirius-content {
+  margin: 50px 80px 30px 80px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -621,24 +645,18 @@ body {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
-  height: 500px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0C0E57), to(#ccccff));
-  background-image: -webkit-linear-gradient(#0C0E57, #ccccff);
-  background-image: -o-linear-gradient(#0C0E57, #ccccff);
-  background-image: linear-gradient(#0C0E57, #ccccff); }
+          align-items: center; }
 
-.whitepaper-heading {
-  font-size: 30px;
-  font-family: 'Geomanist-Book';
-  font-weight: 300;
+.about-sirius-description {
   text-align: center;
-  line-height: 40px;
-  color: #0C0E57; }
+  font-size: 20px;
+  font-weight: 300px;
+  color: #0C0E57;
+  line-height: 30px; }
 
-.whitepaper-btn {
-  width: 200px;
-  height: 40px;
+.about-sirius-btn {
+  width: 300px;
+  height: 50px;
   border: 2px solid #0C0E57;
   -webkit-border-radius: 24px;
           border-radius: 24px;
@@ -647,8 +665,9 @@ body {
   line-height: 20px;
   text-decoration: none;
   margin-top: 50px;
-  color: #0C0E57; }
-
-.whitepaper-btn:hover {
   background-color: #0C0E57;
   color: #fff; }
+
+.about-sirius-btn:hover {
+  background-color: transparent;
+  color: #0C0E57; }
