@@ -323,28 +323,6 @@ body {
   .container-header {
     width: 100%;
     margin-bottom: 60px; } }
-    flex-direction: column;
-    z-index: 100; }
-  .header-video-wrapper {
-    margin-top: 550px;
-    margin-bottom: 30px;
-    text-align: center; }
-  .header-video-wrapper {
-    right: 0px; }
-  .header-video {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; } }
 
 .value {
   position: relative;
