@@ -323,6 +323,28 @@ body {
   .container-header {
     width: 100%;
     margin-bottom: 60px; } }
+    flex-direction: column;
+    z-index: 100; }
+  .header-video-wrapper {
+    margin-top: 550px;
+    margin-bottom: 30px;
+    text-align: center; }
+  .header-video-wrapper {
+    right: 0px; }
+  .header-video {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 
 .value {
   position: relative;
@@ -554,6 +576,20 @@ body {
   letter-spacing: -0.35px;
   line-height: 30px; }
 
+@media screen and (max-width: 480px) {
+  .team-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .team-member {
+    width: 80%; } }
+
 .footer {
   padding: 15px 0 25px;
   -webkit-box-shadow: 0 -1px 0 0 #E8EBF2;
@@ -648,6 +684,12 @@ body {
   padding-top: 40px;
   color: #0C0E57; }
 
+@media screen and (max-width: 480px) {
+  .footer-heading-content {
+    font-size: 15px; }
+  .team-member-social-link {
+    margin: 0 5px 0 5px; } }
+
 .privacy-policy-container {
   width: 80%;
   margin: 50px 80px;
@@ -679,7 +721,7 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 500px;
+  height: 100vh;
   background-color: #EDEDF6; }
 
 .about-sirius-heading {
@@ -739,4 +781,6 @@ body {
 
 @media screen and (max-width: 480px) {
   .main-about-sirius {
-    height: 700px; } }
+    height: 700px; }
+  .about-sirius-content {
+    margin: 10px; } }
