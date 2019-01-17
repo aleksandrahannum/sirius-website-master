@@ -558,6 +558,20 @@ body {
   letter-spacing: -0.35px;
   line-height: 30px; }
 
+@media screen and (max-width: 480px) {
+  .team-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .team-member {
+    width: 80%; } }
+
 .footer {
   padding: 15px 0 25px;
   -webkit-box-shadow: 0 -1px 0 0 #E8EBF2;
@@ -651,6 +665,12 @@ body {
 .footer-description, .privacy-policy-link {
   padding-top: 40px;
   color: #0C0E57; }
+
+@media screen and (max-width: 480px) {
+  .footer-heading-content {
+    font-size: 15px; }
+  .team-member-social-link {
+    margin: 0 5px 0 5px; } }
 
 .privacy-policy-container {
   width: 80%;
