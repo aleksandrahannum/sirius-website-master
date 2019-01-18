@@ -572,14 +572,6 @@ body {
   background-color: #FAFBFF; }
 
 .footer-row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-top: 50px; }
 
 .footer-email {
@@ -614,15 +606,15 @@ body {
           align-items: center; }
 
 .footer-heading-container {
-  width: 500px;
-  height: 100px; }
+  margin-bottom: 50px;
+  margin-top: 20px; }
 
 .footer-heading-content {
   font-size: 30px;
   font-family: 'Geomanist-Book';
   font-weight: 300;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   color: #0C0E57; }
 
 .get-in-touch-btn {
@@ -635,7 +627,7 @@ body {
   font-weight: 400;
   line-height: 20px;
   text-decoration: none;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #0C0E57; }
 
 .get-in-touch-btn:hover {
@@ -647,23 +639,66 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px; }
 
 .team-member-social-link {
   margin: 0 20px 0 20px; }
 
+.footer-description {
+  left: 0; }
+
+.privacy-policy-link {
+  right: 0;
+  text-decoration: underline;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  will-change: transform; }
+  .privacy-policy-link:hover {
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px); }
+
+.footer-disclaimers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .footer-description, .privacy-policy-link {
-  padding-top: 40px;
-  color: #0C0E57; }
+  padding-top: 20px;
+  color: #0C0E57;
+  margin: 10px; }
+
+@media screen and (max-width: 700px) {
+  .footer-heading-container {
+    margin-bottom: 40px; } }
 
 @media screen and (max-width: 480px) {
+  .footer-heading-container {
+    margin-bottom: 20px; }
   .footer-heading-content {
     font-size: 15px; }
   .team-member-social-link {
-    margin: 0 5px 0 5px; } }
+    margin: 0 5px 0 5px; }
+  .get-in-touch-btn {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 400px) {
+  .footer-description, .privacy-policy-link {
+    font-size: 14px; }
+  .get-in-touch-btn {
+    margin-bottom: 0; } }
 
 .privacy-policy-container {
   width: 80%;
