@@ -720,6 +720,11 @@ body {
 .subtitle {
   margin: 10px 10px 10px 0; }
 
+@media screen and (max-width: 480px) {
+  .privacy-policy-container {
+    width: 100%;
+    margin: 20px 10px; } }
+
 .main-about-sirius {
   padding-top: 0px;
   display: -webkit-box;
